@@ -1,0 +1,36 @@
+<html>
+    <head>
+      <title>Sound Controlled Animals</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+
+      <body>
+        <div class="col-xs-12 header_div text-center">
+          <h2> Sound Controlled Animals</h2>
+          <p>Note: Play different sounds like barking, meowing, roar and mooing.</p>
+        </div>
+        <div class="main_div">
+          <center>
+            <button class="btn btn-success" onclick="startClassification();">START</button>
+            <h4 id="number_of_times_detected"></h4>
+            <h3 id="sound_class"></h3> 
+            <br>
+            <img id="sound_heard" src="https://shravaripatil.github.io/Sound_controlled_animals/listen.gif" height="400" width="400">         
+          </center>
+        </div>
+
+
+
+        <div class="copy_right_footer">
+          Developed by - WhiteHat Junior Team
+        </div>
+        <script src="main.js"></script>
+      </body>
+</html>
